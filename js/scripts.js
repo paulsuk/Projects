@@ -1,3 +1,4 @@
+
 /* When user presses the hamburger icon, add "open" tag to the topnav*/
 function toggleMenu() {
     var x = document.getElementById("myTopnav");
