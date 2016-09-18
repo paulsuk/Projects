@@ -25,6 +25,9 @@ h2 {
     padding-left: 50px;
     font-size: 200%;
 }
+h3 {
+    font-size: 150%;
+}
 
 p, ol {
     font-size: 125%;
@@ -294,4 +297,50 @@ div.teams-content {
 
 .hidden {
     display: none;
+}
+
+div.team-member {
+    width: 100%;
+    height: auto;
+    display:block;
+    position: relative;
+    float: left;
+
+}
+
+.person-image-container {
+    width: 15%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    float: left;
+    height: auto;
+}
+
+.person-image {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+div.person-description {
+    width: 83%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    right: 0;
+    float: right;
+}
+
+.img-container {
+    width: 100%;
+    float: left;
+    height: auto;
+    display: block;
+    position: relative;
 }
