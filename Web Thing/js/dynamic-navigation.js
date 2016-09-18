@@ -1,4 +1,5 @@
 $(function() {
+    setTeamSelected(TeamSelected);
 
     if(Modernizr.history){
 
