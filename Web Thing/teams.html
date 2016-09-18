@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<!-- Head -->
+<head>
+	<!-- Metadata -->
+	<meta charset="utf-8">
+    <meta name="author" content="Paul Suk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Useful Links -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/dynamic-navigation.js"></script>
+    <!-- Title -->
+    <title>Teams | U of T Chem-E-Car</title>
+</head>
+
+<!-- Body -->
+<body>
+    <div class="page-container"> 
+        <!-- Navigation Block -->
+        <div class="navigation-block" id="nav-block">
+            <ul class="topnav" id="myTopnav">
+                <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+                <li><a href="about.html" onclick="closeMenu()">About</a></li>
+                <li><a href="teams.html" onclick="closeMenu()">Teams</a></li>
+                <li><a href="sponsors.html" onclick="closeMenu()">Sponsors</a></li>
+                <li><a href="events.html" onclick="closeMenu()">Events</a></li>
+                <li><a href="contact.html" onclick="closeMenu()">Contact Us</a></li>
+                <li class="hamburgerIcon">
+                <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+              </li>
+            </ul>
+        </div>
+        
+        <!-- Header -->
+        <section id="main-content">
+        <div id="guts">
+            <div class="teams-container">
+                <div class="team-select-container">
+                    <h1>Teams</h1>
+                    <ul class="team-select">
+                        <li><a href="#" onclick="setTeamSelected('management')">Management</a></li>
+                        <li><a href="#" onclick="setTeamSelected('power')">Power Source</a></li>
+                        <li><a href="#" onclick="setTeamSelected('stopping')">Stopping Mechanism</a></li>
+                        <li><a href="#" onclick="setTeamSelected('circuitry')">Circuitry & Programming</a></li>
+                        <li><a href="#" onclick="setTeamSelected('mechanical')">Mechanical Design</a></li>
+                        <li><a href="#" onclick="setTeamSelected('research')">Research & Development</a></li>
+                    </ul>
+                </div>
+                <div class="teams-content" id="team-content-container">
+                    <div class="management" id="management">
+                        <h2>Management</h2>
+                    </div>
+                    <div class="power hidden" id="power">
+                        <h2>Power Source</h2>
+                    </div>
+                    <div class="stopping hidden" id="stopping">
+                        <h2>Stopping Mechanism</h2>
+                    </div>
+                    <div class="circuitry hidden" id="circuitry">
+                        <h2>Circuitry and Programming</h2>
+                    </div>
+                    <div class="mechanical hidden" id="mechanical">
+                        <h2>Mechanical Design</h2>
+                    </div>
+                    <div class="research hidden" id="research">
+                        <h2>Research & Development</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+</body>
+</html>
